@@ -1,9 +1,9 @@
 {
-    "name": "ftp-client",
-    "version": "0.2.2",
+    "name": "node-ftp-client",
+    "version": "0.0.1",
     "author": {
-        "name": "Krzysztof Jakubik",
-        "email": "krzysiek.jakubik@gmail.com"
+        "name": "eeong",
+        "email": "discography8@gmail.com"
     },
     "description": "A wrapper for the node-ftp module",
     "main": "./lib/client",
@@ -18,22 +18,22 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://github.com/noodny/node-ftp-client/raw/master/LICENSE"
+            "url": "http://github.com/eeong/node-ftp-client/raw/master/LICENSE"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/noodny/node-ftp-client.git"
+        "url": "http://github.com/eeong/node-ftp-client.git"
     },
     "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/noodny/node-ftp-client/issues"
+        "url": "https://github.com/eeong/node-ftp-client/issues"
     },
-    "homepage": "https://github.com/noodny/node-ftp-client",
+    "homepage": "https://github.com/eeong/node-ftp-client",
     "dependencies": {
+        "async": "~0.8.0",
         "ftp": "~0.3.6",
-        "lodash": "~2.4.1",
-        "glob": "~3.2.9",
-        "async": "~0.8.0"
+        "glob": "^10.2.6",
+        "lodash": "^4.17.21"
     }
 }
